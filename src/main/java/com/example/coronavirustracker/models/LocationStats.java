@@ -5,9 +5,18 @@ public class LocationStats {
     private String state;
     private String country;
     private int latestTotalCases;
+    private int diffFromPreviousDay;
 
     public String getState() {
         return state;
+    }
+
+    public int getDiffFromPreviousDay() {
+        return diffFromPreviousDay;
+    }
+
+    public void setDiffFromPreviousDay(int diffFromPreviousDay) {
+        this.diffFromPreviousDay = diffFromPreviousDay;
     }
 
     public void setState(String state) {
